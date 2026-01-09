@@ -1,0 +1,75 @@
+[
+  {
+    "id": "intro",
+    "type": "input",
+    "data": { "label": "Start Here" },
+    "position": { "x": 250, "y": 0 },
+    "style": { "background": "#facc15", "color": "#000", "fontWeight": "bold", "borderRadius": "8px", "padding": "10px", "border": "2px solid #eab308" }
+  },
+  {
+    "id": "html",
+    "data": { "label": "HTML" },
+    "position": { "x": 100, "y": 100 },
+    "route": "/html",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "css",
+    "data": { "label": "CSS" },
+    "position": { "x": 250, "y": 100 },
+    "route": "/css",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "javascript",
+    "data": { "label": "JavaScript" },
+    "position": { "x": 400, "y": 100 },
+    "route": "/javascript",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "version-control",
+    "data": { "label": "Version Control" },
+    "position": { "x": 250, "y": 200 },
+    "route": "/version-control",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "frameworks",
+    "data": { "label": "Frameworks" },
+    "position": { "x": 250, "y": 300 },
+    "route": "/frameworks",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "testing",
+    "data": { "label": "Testing" },
+    "position": { "x": 100, "y": 400 },
+    "route": "/testing",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "performance",
+    "data": { "label": "Performance" },
+    "position": { "x": 250, "y": 400 },
+    "route": "/performance",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  {
+    "id": "deployment",
+    "data": { "label": "Deployment" },
+    "position": { "x": 400, "y": 400 },
+    "route": "/deployment",
+    "style": { "background": "#facc15", "color": "#000", "borderRadius": "8px", "border": "1px solid #eab308" }
+  },
+  { "id": "e1-2", "source": "intro", "target": "html", "animated": true },
+  { "id": "e1-3", "source": "intro", "target": "css", "animated": true },
+  { "id": "e1-4", "source": "intro", "target": "javascript", "animated": true },
+  { "id": "e2-5", "source": "html", "target": "version-control" },
+  { "id": "e3-5", "source": "css", "target": "version-control" },
+  { "id": "e4-5", "source": "javascript", "target": "version-control" },
+  { "id": "e5-6", "source": "version-control", "target": "frameworks" },
+  { "id": "e6-7", "source": "frameworks", "target": "testing" },
+  { "id": "e6-8", "source": "frameworks", "target": "performance" },
+  { "id": "e6-9", "source": "frameworks", "target": "deployment" }
+]

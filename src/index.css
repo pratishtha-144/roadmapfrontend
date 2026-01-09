@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.react-flow__background {
+  background-color: #0a0a0a !important;
+}
+
+.react-flow__edge-path {
+  stroke: #444 !important;
+  stroke-width: 2;
+}
+
+.react-flow__node {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.react-flow__node:hover {
+  transform: scale(1.05);
+}
